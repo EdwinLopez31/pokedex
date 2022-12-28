@@ -1,5 +1,5 @@
+import Header from "components/header";
 import React from "react";
-
 type AppLayoutProps = {
   children: React.ReactNode;
 };
@@ -7,7 +7,8 @@ type AppLayoutProps = {
 const AppLayout = ({ children }: AppLayoutProps) => {
   return (
     <>
-      <main>{children}</main>
+      <Header />
+      <main className='flex flex-grow p-4'>{children}</main>
     </>
   );
 };

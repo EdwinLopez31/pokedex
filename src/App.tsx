@@ -1,5 +1,7 @@
+import AppLayout from "layout/AppLayout";
+
 function App() {
-  return <div>Initial Commit</div>;
+  return <AppLayout>Display pokemons here</AppLayout>;
 }
 
 export default App;
