@@ -8,7 +8,7 @@ const AppLayout = ({ children }: AppLayoutProps) => {
   return (
     <>
       <Header />
-      <main className='flex flex-grow p-4'>{children}</main>
+      <main className='flex p-4'>{children}</main>
     </>
   );
 };
