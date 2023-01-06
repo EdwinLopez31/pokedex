@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "types": ["jest", "@testing-library/jest-dom"],
+    "types": ["jest", "@testing-library/jest-dom", "node"],
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,
