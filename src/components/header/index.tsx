@@ -1,5 +1,4 @@
-import AppLogo from "../../assets/app-logo.png";
-import SearchField from "../../features/search-field";
+import AppLogo from "assets/app-logo.png";
 
 const Header = () => {
   return (
@@ -10,7 +9,6 @@ const Header = () => {
           Pokedex
         </h1>
       </span>
-      <SearchField />
     </header>
   );
 };
