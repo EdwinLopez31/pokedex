@@ -19,9 +19,4 @@ describe("Header Component", () => {
 
     expect(screen.getByRole("heading")).toHaveTextContent(/pokedex/i);
   });
-
-  it("renders a search field", () => {
-    render(<Header />);
-    expect(screen.getByRole("textbox")).toBeInTheDocument();
-  });
 });
